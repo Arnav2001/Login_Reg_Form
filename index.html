@@ -13,4 +13,10 @@
         <button onclick="login()">Login</button>
     </form>
 </body>
+<script>
+      if(localStorage.getItem('username') && localStorage.getItem('password')){
+        document.getElementById('username').value = localStorage.getItem('username')
+        document.getElementById('password').value = localStorage.getItem('password')
+    }
+</script>
 </html>
