@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Registration form</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <script src="app.js"></script>
     <form id="form">
         <div class="border-div">
+        <div>
+            <h1>SignUp</h1>
+        </div>
         <div id="usernamediv">
             <input type="text" name="username" id="username" required placeholder="Enter Your username">
         
         </div>
-        <div>
+        <div class="password-container">
             <input type="password" name="password" id="password" required placeholder="Enter Your password">
+        <span class="eye-icon" onclick="togglePasswordVisibility()">
+            <i class="fa-solid fa-eye"></i>
+          </span>
         </div>
         <div>
-            <button class="login-button" onclick="login()">Login</button>    
+            <button class="login-button" onclick="SignUp()">SignUp</button>    
         </div>
         </div>
     </form>

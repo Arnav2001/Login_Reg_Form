@@ -6,19 +6,20 @@ body,html{
     display: flex;
     justify-content: center;
   flex-direction: column;
-  gap: 20px;
     background-color:antiquewhite;
     align-items: center;
 }
 
 input {
+    width: 100%;
     /* Box sizing and padding */
     box-sizing: border-box;
-    padding: 8px;
+    padding: 4%;
+
     
     /* Font properties */
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     
     /* Border and border-radius */
     border: 2px solid #ccc;
@@ -30,7 +31,7 @@ input {
     
     /* Hover and focus styles */
     transition: border-color 0.3s;
-    margin-bottom: 8px;
+    margin-bottom: 4%;
   }
   
   /* Hover effect */
@@ -46,8 +47,8 @@ input {
   }
   .login-button {
     display: inline-block;
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 8% 20%;
+    font-size: 100%;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -55,7 +56,7 @@ input {
     border-radius: 4px;
     cursor: pointer;
     color: #fff;
-    background-color: #007bff;
+    background-color: hsl(211, 100%, 20%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
   }
@@ -76,9 +77,32 @@ input {
     cursor: not-allowed;
   }
   .border-div {
-    width: fit-content;
+    display: flex;
+    width: 150%;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    gap: 20;
-    border: 2px solid #000000; /* Border width, style, and color */
-    padding: 20px; /* Optional: Add padding to create some space between content and border */
+    border: 2px solid #000000;
+    padding: 20%;
+    max-width: 500px; /* Optional: Add padding to create some space between content and border */
   }
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+  }
+  .password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Style for the FontAwesome eye icon */
+.eye-icon i {
+  color: #333;
+}
