@@ -1,0 +1,84 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+    background-color:antiquewhite;
+    align-items: center;
+}
+
+input {
+    /* Box sizing and padding */
+    box-sizing: border-box;
+    padding: 8px;
+    
+    /* Font properties */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+    /* Border and border-radius */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    
+    /* Background and text colors */
+    background-color: #f8f8f8;
+    color: #333;
+    
+    /* Hover and focus styles */
+    transition: border-color 0.3s;
+    margin-bottom: 8px;
+  }
+  
+  /* Hover effect */
+  input:hover {
+    border-color: #999;
+  }
+  
+  /* Focus effect */
+  input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .login-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Button active effect */
+  .login-button:active {
+    background-color: #003c80;
+  }
+
+  /* Button disabled styles */
+  .login-button[disabled] {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  .border-div {
+    width: fit-content;
+    text-align: center;
+    gap: 20;
+    border: 2px solid #000000; /* Border width, style, and color */
+    padding: 20px; /* Optional: Add padding to create some space between content and border */
+  }

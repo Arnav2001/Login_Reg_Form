@@ -16,3 +16,4 @@ function login(){
         alert("Your data is stored in local storage")
     })
 }
+

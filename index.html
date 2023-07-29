@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Registration form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <script src="app.js"></script>
     <form id="form">
-        <input type="text" name="username" id="username" required placeholder="Enter Your username">
-        <input type="password" name="password" id="password" required placeholder="Enter Your password">
-        <button onclick="login()">Login</button>
+        <div class="border-div">
+        <div id="usernamediv">
+            <input type="text" name="username" id="username" required placeholder="Enter Your username">
+        
+        </div>
+        <div>
+            <input type="password" name="password" id="password" required placeholder="Enter Your password">
+        </div>
+        <div>
+            <button class="login-button" onclick="login()">Login</button>    
+        </div>
+        </div>
     </form>
 </body>
 <script>
