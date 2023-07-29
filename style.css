@@ -106,3 +106,21 @@ input {
 .eye-icon i {
   color: #333;
 }
+.trash-can-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .trash-can-container i {
+    font-size: 24px;
+    color: hsl(211, 100%, 20%); /* Change the color as desired */
+    cursor: pointer;
+  }
+  
+  /* Optional: Add hover effect to the icon */
+  .trash-can-container i:hover {
+    color: #003c80;
+  }
+  

@@ -13,7 +13,7 @@ function SignUp(){
         localStorage.setItem('username',username)
         localStorage.setItem('password',password)
 
-        alert("Your data is stored in local storage")
+        alert("Your data is stored in local storage");
     })
 }
 
@@ -32,3 +32,9 @@ function togglePasswordVisibility() {
     }
   }
   
+  function deleteItem (){
+  
+    localStorage.removeItem("username");
+    localStorage.removeItem("password");
+    location.reload();
+  }
