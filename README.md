@@ -45,5 +45,5 @@ I would like to thank the online tutorials and resources that helped me in learn
 
 Feel free to explore the project and provide any feedback or suggestions. Happy coding!
 
-Author: Your Name
-GitHub: [Your GitHub Profile](https://github.com/your-username)
+Author: Arnav Kulshrestha
+GitHub: [Your GitHub Profile](https://github.com/Arnav2001)
