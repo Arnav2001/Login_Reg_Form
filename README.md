@@ -1,6 +1,7 @@
 # Login_Reg_Form - My First Web Development Project
 
-![Login_Reg_Form](project_screenshot.png)
+![screenshot of project](https://github.com/Arnav2001/Login_Reg_Form/assets/68494838/32e2042e-b56d-4e79-84ea-793811279c4a)
+
 
 ## Description
 
